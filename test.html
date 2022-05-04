@@ -1,0 +1,19 @@
+<body>
+    <h2>My First Web Page</h2>
+<p onclick="change(event)">My first paragraph.</p>
+                    <!-- 모든것을 다 지우고 11이 나온다. -->
+<button type="button" onclick="document.write(5 + 6)">
+    Try it
+</button>
+
+
+
+<script>
+    function change(event){
+        console.log(event.target.innerHTML) 
+       alert(5 + 6)
+        // document.querySelector('p').innerHTML = 'Your First ..'
+    }
+</script>
+</body>
+
